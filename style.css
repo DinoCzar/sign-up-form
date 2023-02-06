@@ -19,13 +19,13 @@
 .logo-container, .logo {
     height: 20%;
     top: 10%;
-    width: 100%;
 }
 
 .logo-container {
     background-color: grey;
     opacity: 50%;
     position: relative;
+    width: 100%;
 }
 
 .logo {
@@ -33,6 +33,7 @@
     flex-direction: row;
     align-items: center;
     position: absolute;
+    width: 50%;
 }
 
 .compass {
