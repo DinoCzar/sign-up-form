@@ -1,5 +1,5 @@
 .main-container {
-    height: 600px;
+    height: 100vh;
     display: flex;
     background-color: #20b2aa;
     padding: 4%;
@@ -10,6 +10,7 @@
 }
 
 .left-container {
+    position: relative;
     background-image: url('bali.jpeg');
     background-size: cover;
     height: 100%;
@@ -17,6 +18,7 @@
 }
 
 .logo-container, .logo {
+    position: absolute;
     height: 20%;
     top: 10%;
 }
@@ -24,7 +26,6 @@
 .logo-container {
     background-color: grey;
     opacity: 50%;
-    position: relative;
     width: 100%;
 }
 
@@ -32,8 +33,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: absolute;
-    width: 50%;
+    width: 100%;
+    overflow: auto;
 }
 
 .compass {
@@ -48,6 +49,9 @@ h1 {
 }
 
 .credit {
-    position: relative;
-    top: 50%;
+    position: absolute;
+    bottom: 10px;
+    margin: 10px;
+    overflow: auto;
+    color: white;
 }
