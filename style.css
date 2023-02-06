@@ -10,10 +10,15 @@
     margin: 2%;
 }
 
-img {
+.bali {
     width: 100%;
+}
+
+.compass {
+    width: 10%;
 }
 
 h1 {
     font-family: 'Allison', sans-serif;
+    color: white;
 }
