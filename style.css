@@ -91,6 +91,11 @@ input {
     padding: 10px;
 }
 
+input:empty {
+    border: solid;
+    border-color: #E5E7EB;
+}
+
 input:invalid {
     border: solid;
     border-color: red;
@@ -103,12 +108,7 @@ input:valid {
 
 input:focus {
     border: solid;
-    border-color: purple;
-}
-
-input:empty {
-    border: solid;
-    border-color: black;
+    box-shadow: lightblue;
 }
 
 button {
