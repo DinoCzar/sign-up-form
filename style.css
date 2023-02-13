@@ -55,3 +55,8 @@ h1 {
     overflow: auto;
     color: white;
 }
+
+.forms {
+    display: flex;
+    flex-direction: column;
+}
