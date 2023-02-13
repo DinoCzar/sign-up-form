@@ -56,13 +56,9 @@ h1 {
     color: white;
 }
 
-.form-section {
+.forms {
     display: flex;
     flex-direction: column;
-}
-
-.forms {
-    display: table;
 }
 
 .form-div {
@@ -75,8 +71,40 @@ input {
     margin: 10px;
 }
 
+input {
+    border-color: lightgray;
+    background-color: white;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:valid {
+    background-color: green;
+}
+
+input:focus {
+    border-color: lightblue;
+}
+
 .form-test {
     display: flex;
     flex-direction: column;
+}
+
+button {
+    background-color: tan;
+    width: 120px;
+    margin: 25px;
+    padding: 10px;
+}
+
+#password {
+    border-color: red;
+}
+
+#password-confirm {
+    border-color: red;
 }
 
