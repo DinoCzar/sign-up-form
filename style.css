@@ -107,8 +107,9 @@ input:valid {
 }
 
 input:focus {
-    border: solid;
-    box-shadow: lightblue;
+    outline: none;
+    border: 2px solid;
+    border-color: blue;
 }
 
 button {
