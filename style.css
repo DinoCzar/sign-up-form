@@ -61,6 +61,10 @@ h1 {
     flex-direction: column;
 }
 
+.forms-container {
+    padding: 20px;
+}
+
 .form-div {
     display: flex;
     flex-direction: row;
@@ -73,12 +77,12 @@ h1 {
     flex-direction: column;
 }
 
-label, 
-input {
-    margin: 10px;
+label {
+    margin-top: 20px;
 }
 
 input {
+    margin-right: 20px;
     border: solid;
     border-color: #E5E7EB;
     background-color: white;
@@ -105,11 +109,6 @@ input:focus {
 input:empty {
     border: solid;
     border-color: black;
-}
-
-.form-test {
-    display: flex;
-    flex-direction: column;
 }
 
 button {
