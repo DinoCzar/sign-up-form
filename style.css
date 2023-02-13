@@ -72,6 +72,7 @@ input {
 }
 
 input {
+    border: solid;
     border-color: #E5E7EB;
     background-color: white;
     border: none;
@@ -80,15 +81,23 @@ input {
 }
 
 input:invalid {
+    border: solid;
     border-color: red;
 }
 
 input:valid {
-    background-color: green;
+    border: solid;
+    border-color: green;
 }
 
 input:focus {
+    border: solid;
     border-color: purple;
+}
+
+input:empty {
+    border: solid;
+    border-color: black;
 }
 
 .form-test {
@@ -101,8 +110,8 @@ button {
     width: 120px;
     margin: 25px;
     padding: 10px;
-    border: none;
-    border-radius: 10px 10px 10px 10px;
+    border: solid;
+    border-radius: 5px 5px 5px 5px;
 }
 
 #password {
