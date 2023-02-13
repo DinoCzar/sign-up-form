@@ -66,6 +66,13 @@ h1 {
     flex-direction: row;
 }
 
+.form {
+    align-items: left;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
 label, 
 input {
     margin: 10px;
